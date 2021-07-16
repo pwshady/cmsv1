@@ -56,8 +56,8 @@
 
 @media screen and (max-width: 680px) {
     .guest__header__nav__left__left {
-        margin: auto;
-        width: 40%;
+        margin: 10%;
+        width: 22,5%;
         height: auto;
     }
 }
@@ -71,14 +71,16 @@
 
 @media screen and (max-width: 680px) {
     .guest__header__nav__left__right {
-        margin: auto;
-        width: 40%;
+        margin: 10%;
+        width: 22,5%;
     }
 }
 
 /*Header-center*/
 
 .guest__header__center {
+    width: 100%;
+    background-color: whitesmoke;
     text-align: center;
     margin: 0 auto;
 }
@@ -88,6 +90,7 @@
 }
 
 .guest__header__nav__center ul {
+    margin: 0;
     padding-inline-start: 0;
 }
 
@@ -95,18 +98,67 @@
     display: inline-block;
 }
 
+.guest__header__nav__center__left {
+    margin-top: 4%;
+    margin-right: 10%;
+    width: 14%;
+    height: 100%;
+    background-color: teal;
+}
+
+
+@media screen and (max-width: 680px) {
+    .guest__header__nav__center__left {
+        margin: 7,5%;
+        width: 15%;
+    }
+}
+
+.guest__header__nav__center__center {
+    margin-top: 4%;
+    width: 14%;
+    height: 100%;
+    background-color:yellow;
+}
+
+@media screen and (max-width: 680px) {
+    .guest__header__nav__center__center {
+        margin: 7,5%;
+        width: 15%;
+    }
+}
+
+.guest__header__nav__center__right {
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 14%;
+    height: 100%;
+    background-color:yellow;
+}
+
+@media screen and (max-width: 680px) {
+    .guest__header__nav__center__right {
+        margin: 7,5%;
+        width: 15%;
+    }
+}
+
 /*Header-right*/
 
 .guest__header__right {
-    text-align: right;
+    width: 100%;
+    background-color: blueviolet;
     margin: 0 auto;
+    text-align: left;
 }
 
-.guest__header__nav__right {
 
+.guest__header__nav__right {
+    text-align: center;
 }
 
 .guest__header__nav__right ul {
+    margin: 0;
     padding-inline-start: 0;
 }
 
@@ -115,22 +167,42 @@
 }
 
 .guest__header__nav__right__left {
-
+    margin: 5%;
+    width: 20%;
+    height: 100%;
+    background-color: teal;
 }
 
-.guest__header__nav__right__center {
-    
+@media screen and (max-width: 680px) {
+    .guest__header__nav__right__left {
+        margin: 10%;
+        width: 22,5%;
+        height: auto;
+    }
+}
+
+.guest__header__nav__right__right {
+    margin: 5%;
+    width: 20%;
+    height: 100%;
+    background-color:yellow;
+}
+
+@media screen and (max-width: 680px) {
+    .guest__header__nav__right__right {
+        margin: 10%;
+        width: 22,5%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 760px) {
     .guest__header__nav__right__right {
         visibility: hidden;
     }
-  }
-
-.guest__header__nav__right__right {
-
 }
+
+
 
 /*Content*/
 
