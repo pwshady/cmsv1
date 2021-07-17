@@ -1,5 +1,15 @@
 <?php
 require_once "app\lib\\functions.php";
+require_once "app\lib\Database.php";
+require_once "app\basic\Model.php";
+require_once "app\basic\dev.php";
+require_once "app\models\MainModels.php";
+
+use app\lib\database;
+use app\models\MainModels;
+$mm = new MainModels;
+$menu = $mm->getNews();
+print_r($menu);
 
 ?>
 
@@ -23,7 +33,8 @@ require_once "app\lib\\functions.php";
                 <ul>
                     <li>
                         <div>
-                            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                            <?print_r($mm->getMenu());?>
+
                         </div>
                     </li>
                 </ul>

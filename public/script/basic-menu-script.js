@@ -1,2 +1,4 @@
 'use strict';
-alert("re");
+var namer = "<?php echo $menu;?>";
+namer = JSON.parse(namer);
+alert(namer);
